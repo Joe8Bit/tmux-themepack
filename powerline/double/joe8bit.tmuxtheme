@@ -19,7 +19,7 @@ set -g status-bg colour233
 set -g status-left-bg colour233
 set -g status-left-fg colour243
 set -g status-left-length 40
-set -g status-left "#[fg=colour233,bg=colour159,bold] #S #[fg=colour159,bg=colour240,nobold]#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour235]#[fg=colour240,bg=colour235] #I:#P #[fg=colour235,bg=colour233,nobold]"
+set -g status-left "#[fg=colour233,bg=colour117,bold] #S #[fg=colour117,bg=colour240,nobold]#[fg=colour233,bg=colour240] #(whoami) #[fg=colour240,bg=colour235]#[fg=colour240,bg=colour235] #I:#P #[fg=colour235,bg=colour233,nobold]"
 
 # Right side of status bar
 set -g status-right-bg colour233
@@ -32,7 +32,7 @@ set -g window-status-format "  #I:#W#F  "
 set -g window-status-current-format "#[fg=colour233,bg=black]#[fg=colour81,nobold] #I:#W#F #[fg=colour233,bg=black,nobold]"
 
 # Current window status
-set -g window-status-current-bg colour159
+set -g window-status-current-bg colour117
 set -g window-status-current-fg colour235
 
 # Window with activity status
@@ -51,18 +51,18 @@ set -g pane-border-fg colour238
 
 # Active pane border
 set -g pane-active-border-bg default
-set -g pane-active-border-fg colour159
+set -g pane-active-border-fg colour117
 
 # Pane number indicator
 set -g display-panes-colour colour233
 set -g display-panes-active-colour colour245
 
 # Clock mode
-set -g clock-mode-colour colour159
+set -g clock-mode-colour colour117
 set -g clock-mode-style 24
 
 # Message
-set -g message-bg colour159
+set -g message-bg colour117
 set -g message-fg black
 
 # Command message
